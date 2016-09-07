@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>微博相册</title>
+  <link rel="stylesheet" type="text/css" href="css/all.css">
+  <style type="text/css">
+  .photo{
+    margin-bottom:50px;
+    text-align: center;
+  }
+  .photo img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .pagination{
+    text-align: center;
+  }
+  .page-nav{
+    display:none;
+  }
+  </style>
+</head>
+<body>
+  <div>
+    <div class="topbar">
+      <div class="following-list"><a href="following-list.html">管理关注</a></div>
+      <div><a href='index.html'>微博相册</a> / <span id="uname">相册专辑</span> / <span id="album-name"></span></div>
+    </div>
+    <div class="container">
+      <div class="login">微博未登录，请先在 <a href='http://weibo.com/login'>weibo.com/login</a> 进行登录，然后再刷新本页面</div>
+      <div class="after-login">
+        <div id="photos"></div>
+        <div class="pagination">
+          <div id="current-page"></div>
+          <a id="previous-page" class="page-nav">上一页</a>
+          <a id="next-page" class="page-nav">下一页</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="js/jquery-3.1.0.min.js"></script>
+  <script src="js/all.js"></script>
+  <script src="js/photos.js"></script>
+</body>
+</html>

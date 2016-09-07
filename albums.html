@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>微博相册</title>
+  <link rel="stylesheet" type="text/css" href="css/all.css">
+  <style type="text/css">
+  .album{
+    display:inline-block;
+    margin:20px;
+  }
+  .cover-image{
+    width: 150px;
+    height: 150px;
+  }
+  </style>
+</head>
+<body>
+  <div>
+    <div class="topbar">
+      <div class="following-list"><a href="following-list.html">管理关注</a></div>
+      <div><a href='index.html'>微博相册</a> / <span id="uname">相册专辑</span></div>
+    </div>
+    <div class="container">
+      <div class="login">微博未登录，请先在 <a href='http://weibo.com/login'>weibo.com/login</a> 进行登录，然后再刷新本页面</div>
+      <div class="after-login">
+        <div id="album-list"></div>
+      </div>
+    </div>
+  </div>
+  <script src="js/jquery-3.1.0.min.js"></script>
+  <script src="js/all.js"></script>
+  <script src="js/albums.js"></script>
+</body>
+</html>

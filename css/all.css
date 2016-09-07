@@ -1,0 +1,25 @@
+a {
+  text-decoration: none;
+}
+.topbar{
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  right: 0;
+  left: 0;
+  padding:10px;
+  background: #FFFFFF;
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+.container{
+  margin-top: 50px;
+}
+.following-list{
+  float:right;
+}
+.login{
+  display:none;
+}
+.after-login{
+  display:none;
+}
