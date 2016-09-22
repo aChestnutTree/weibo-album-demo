@@ -1,0 +1,8 @@
+.album{
+  display:inline-block;
+  margin:20px;
+}
+.cover-image{
+  width: 150px;
+  height: 150px;
+}
