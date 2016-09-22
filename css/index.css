@@ -1,0 +1,14 @@
+.user{
+  display: inline-block;
+  margin: 10px;
+  width: 90px;
+  vertical-align: top;
+  text-align: center;
+}
+.avatar {
+  border-radius: 50%
+}
+.add-following{
+  margin-left: 10px;
+  height: 40px;
+}
